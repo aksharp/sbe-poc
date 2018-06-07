@@ -4,7 +4,8 @@
     
     SBE IR Schema
         1. Missing some fields
-            Example: Model enum was missing values
+            Example: Model enum was missing values (Only Model.C generated) when using to codege with SBE Tool
+            
     
     SBE JsonPrinter 
         1. Very Fast, almost 5 times faster than Circe 
