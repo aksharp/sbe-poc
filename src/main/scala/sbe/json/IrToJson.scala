@@ -4,9 +4,9 @@ import java.nio.file.{Files, Paths}
 
 import org.agrona.concurrent.UnsafeBuffer
 import org.joda.time.DateTime
+import sbe.util.AutoCloseable._
 import uk.co.real_logic.sbe.ir.IrDecoder
 import uk.co.real_logic.sbe.json.JsonPrinter
-import sbe.util.AutoCloseable._
 
 object IrToJson {
 
